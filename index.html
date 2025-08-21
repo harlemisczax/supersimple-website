@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Basic meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajibola Ayomide's CapCut Guide</title>
+    <!-- Link to Google Fonts for a more professional typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Main CSS for the page, using a modern color palette and layout -->
+    <style>
+      :root {
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+        --dark-color: #212529;
+        --light-text: #c45959;
+        --dark-text: #333;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        background-color: var(--secondary-color);
+        color: var(--dark-text);
+        padding-top: 80px; /* Space for the fixed header */
+      }
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--dark-color);
+        color: var(--light-text);
+        padding: 1rem 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+      nav a {
+        color: var(--light-text);
+        text-decoration: none;
+        margin-left: 20px;
+        transition: color 0.3s ease;
+      }
+      nav a:hover {
+        color: var(--primary-color);
+      }
+      .hero-section {
+        background: url('https://placehold.co/1200x600/007bff/ffffff?text=CapCut+Editing') no-repeat center center/cover;
+        color: var(--light-text);
+        text-align: center;
+        padding: 8rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .hero-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+      }
+      .hero-content {
+        position: relative;
+        z-index: 10;
+      }
+      .hero-content h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+      .hero-content p {
+        font-size: 1.25rem;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .container {
+        max-width: 960px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .content-block {
+        margin-bottom: 3rem;
+      }
+      h2 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+      }
+      ul, ol {
+        list-style-position: inside;
+        padding-left: 0;
+      }
+      li {
+        margin-bottom: 0.5rem;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+      }
+      footer {
+        text-align: center;
+        padding: 2rem;
+        background-color: var(--dark-color);
+        color: var(--light-text);
+      }
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+        }
+        nav {
+          margin-top: 10px;
+        }
+        nav a {
+          margin: 0 10px;
+        }
+        .hero-content h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Fixed header at the top of the page -->
+    <header>
+      <div class="logo">Ayomide's CapCut Creations</div>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#pro-tips">Pro Tips</a>
+        <a href="#facts">CapCut Facts</a>
+      </nav>
+    </header>
+    
+    <!-- Hero section with a background image and main headline -->
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1>Mastering CapCut with Ajibola Ayomide</h1>
+        <p>Your go-to guide for professional and creative video editing on mobile and desktop.</p>
+      </div>
+    </div>
+    
+    <!-- Main content container -->
+    <div class="container">
+      <!-- About Me section -->
+      <section id="about" class="content-block">
+        <h2>Who Am I?</h2>
+        <p>
+          Hello! My name is Ajibola Ayomide, and I am a passionate CapCut video editor. I love exploring new features, mastering transitions, and telling engaging stories through short-form videos. This page is dedicated to sharing my knowledge and helping you become a better editor.
+        </p>
+      </section>
+
+      <!-- Pro Tips section with a list -->
+      <section id="pro-tips" class="content-block">
+        <h2>Unlocking Your Editing Potential</h2>
+        <p>Here are some of my top tips for editing with CapCut:</p>
+        <ol>
+          <li><strong>Use Keyframes for Dynamic Motion:</strong> Keyframes allow you to animate text, stickers, and clips. Use them to create zoom effects or make objects move across the screen smoothly.</li>
+          <li><strong>Layer Your Audio:</strong> Don't just rely on one sound. Use background music, sound effects, and voiceovers to create a rich, immersive audio experience that complements your visuals.</li>
+          <li><strong>Speed Ramping for Impact:</strong> Adjust the speed of your clips to create dramatic slow-motion or fast-paced segments. The "Curve" feature in CapCut gives you precise control over this.</li>
+          <li><strong>Green Screen and Chroma Key:</strong> Use the Chroma Key tool to remove a green background and place yourself or an object into a different scene, creating professional-looking effects.</li>
+        </ol>
+        <video controls src="Understanding Capcut PC Interface and Layout - Capcut PC Tutorial Lesson 1.mp4" width="500">
+        
+      </section>
+
+      <!-- Fun Facts section with a list -->
+      <section id="facts" class="content-block">
+        <h2>Did You Know? Quick Facts About CapCut</h2>
+        <ul>
+          <li><strong>Free to Use, No Watermark:</strong> CapCut is one of the few powerful video editors that is completely free and doesn't leave a watermark on your final export.</li>
+          <li><strong>Developed by ByteDance:</strong> CapCut is developed by the same company that created TikTok, which explains its deep integration and user-friendly interface for creating content for the platform.</li>
+          <li><strong>Over 200 Million Downloads:</strong> It is one of the most popular video editing apps in the world, trusted by millions of creators for both personal and professional projects.</li>
+          <li><strong>Cloud Storage Integration:</strong> CapCut has a cloud space feature that allows you to store your projects and media online, making it easy to edit across different devices.</li>
+        </ul>
+      </section>
+    </div>
+    
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2025 Ayomide's Guide. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
